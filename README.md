@@ -411,6 +411,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - 校园网
   - name: 🛑 广告拦截
     type: select
     proxies:

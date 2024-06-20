@@ -108,17 +108,17 @@ proxy-providers:
     health-check:
       enable: true
       interval: 600
-      url: http://www.gstatic.com/generate_204       
-  国内节点:
+      url: http://www.gstatic.com/generate_204     
+  木瓜:
     type: http
     url: "https://xz.muguacloud.shop/api/v1/client/subscribe?token=f2e26c9f410dcd6edae187a68db969c6"
     interval: 604800
-    path: ./国内节点.yaml
-    fliter: CN
+    path: ./木瓜.yaml
+    filter: CN
     health-check:
       enable: true
       interval: 600
-      url: http://www.gstatic.com/generate_204
+      url: http://www.gstatic.com/generate_204       
 proxy-groups:
   - name: 🚀 手动切换
     type: select
@@ -187,11 +187,11 @@ proxy-groups:
   - name: ikuuu
     type: select
     use:
-      - ikuuu     
+      - ikuuu
   - name: 国内节点
     type: select
-    use: 
-      - 国内节点   
+    use:
+      - 木瓜
   - name: 📲 电报消息
     type: select
     proxies:
@@ -437,6 +437,11 @@ proxy-groups:
       - ikuuu
       - REJECT
       - DIRECT
+  - name: 校园网
+    type: relay
+    proxies:
+        - Cnix_vip6
+        - 国内节点
 # clash-rules项目提供的规则集
 # 规则文件统一存放在 ./profiles/rules/ 目录中
 

@@ -2633,6 +2633,7 @@ rules:
   - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
   - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
   - DOMAIN-SUFFIX,bigfun.cn,🌏 国内媒体
+  - DOMAIN-SUFFIX,baozimh.com,🌏 国内媒体
   - DOMAIN-SUFFIX,bigfunapp.cn,🌏 国内媒体
   - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
   - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体

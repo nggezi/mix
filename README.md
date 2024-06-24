@@ -26,7 +26,7 @@ proxy-providers:
     path: ./奶昔.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204
   amy:
     type: http
@@ -35,7 +35,7 @@ proxy-providers:
     path: ./amy.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204 
   dler:
     type: http
@@ -44,7 +44,7 @@ proxy-providers:
     path: ./dler.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204
   dler_gamer:
     type: http
@@ -53,7 +53,7 @@ proxy-providers:
     path: ./dler_gamer.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204
   TAG:
     type: http
@@ -62,7 +62,7 @@ proxy-providers:
     path: ./TAG.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204
   Flower_Cloud:
     type: http
@@ -71,7 +71,7 @@ proxy-providers:
     path: ./Flower_Cloud.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204 
   Cnix_vip6:
     type: http
@@ -80,7 +80,16 @@ proxy-providers:
     path: ./Cnix_vip6.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
+      url: http://www.gstatic.com/generate_204
+  自建:
+    type: http
+    url: "https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fnggezi%2Fzijian%2Fmain%2FREADME.md&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
+    interval: 604800
+    path: ./自建.yaml
+    health-check:
+      enable: true
+      interval: 36000
       url: http://www.gstatic.com/generate_204
   SSRDOG:
     type: http
@@ -89,7 +98,7 @@ proxy-providers:
     path: ./SSRDOG.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204 
   ACA:
     type: http
@@ -98,7 +107,7 @@ proxy-providers:
     path: ./ACA.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204 
   ikuuu:
     type: http
@@ -107,7 +116,7 @@ proxy-providers:
     path: ./ikuuu.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204     
   木瓜:
     type: http
@@ -117,7 +126,7 @@ proxy-providers:
     filter: CN
     health-check:
       enable: true
-      interval: 600
+      interval: 36000
       url: http://www.gstatic.com/generate_204       
 proxy-groups:
   - name: 🚀 手动切换
@@ -142,6 +151,7 @@ proxy-groups:
       - amy
       - dler
       - dler_gamer
+      - 自建
       - TAG
       - Flower_Cloud
       - Cnix_vip6
@@ -164,6 +174,10 @@ proxy-groups:
     type: select
     use:
       - dler_gamer
+  - name: 自建
+    type: select
+    use:
+      - 自建   
   - name: TAG
     type: select
     use:

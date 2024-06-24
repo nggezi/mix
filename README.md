@@ -215,6 +215,7 @@ proxy-groups:
       - amy
       - dler
       - dler_gamer
+      - 自建
       - TAG
       - Flower_Cloud
       - Cnix_vip6

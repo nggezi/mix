@@ -26,7 +26,7 @@ proxy-providers:
     path: ./奶昔.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204
   amy:
     type: http
@@ -35,7 +35,7 @@ proxy-providers:
     path: ./amy.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204 
   dler:
     type: http
@@ -44,7 +44,7 @@ proxy-providers:
     path: ./dler.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204
   dler_gamer:
     type: http
@@ -53,7 +53,7 @@ proxy-providers:
     path: ./dler_gamer.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204
   TAG:
     type: http
@@ -62,7 +62,7 @@ proxy-providers:
     path: ./TAG.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204
   Flower_Cloud:
     type: http
@@ -71,7 +71,7 @@ proxy-providers:
     path: ./Flower_Cloud.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204 
   Cnix_vip6:
     type: http
@@ -80,7 +80,7 @@ proxy-providers:
     path: ./Cnix_vip6.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204
   自建:
     type: http
@@ -89,7 +89,7 @@ proxy-providers:
     path: ./自建.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204
   SSRDOG:
     type: http
@@ -98,7 +98,7 @@ proxy-providers:
     path: ./SSRDOG.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204 
   ACA:
     type: http
@@ -107,7 +107,7 @@ proxy-providers:
     path: ./ACA.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204 
   ikuuu:
     type: http
@@ -116,7 +116,7 @@ proxy-providers:
     path: ./ikuuu.yaml
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204     
   木瓜:
     type: http
@@ -126,7 +126,7 @@ proxy-providers:
     filter: CN
     health-check:
       enable: true
-      interval: 36000
+      interval: 600
       url: http://www.gstatic.com/generate_204       
 proxy-groups:
   - name: 🚀 手动切换

@@ -84,7 +84,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   自建:
     type: http
-    url: "https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fnggezi%2Fzijian%2Fmain%2FREADME.md&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
+    url: "[https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fnggezi%2Fzijian%2Fmain%2FREADME.md&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true](https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fnggezi%2Fzijian%2Fraw%2Fmain%2FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true)"
     interval: 604800
     path: ./自建.yaml
     health-check:

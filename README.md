@@ -24,6 +24,8 @@ proxy-providers:
     url: "https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fphwplx.lol%2F%3FL2Rvd25sb2FkQ29uZmlnL0NsYXNoLmFzcHg%2FZXE9d2luZG93cyZ1cms9NmQ1MWZmNmMtZjFkZS00NTdlLWIwYjQtNzc5M2NlYjAxMDFiJm1tPTI3NzAxNyY5NmY4MmVk&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
     interval: 604800
     path: ./奶昔.yaml
+    override:
+      additional-prefix: "NEX-"
     health-check:
       enable: true
       interval: 600
@@ -33,6 +35,8 @@ proxy-providers:
     url: "https://amyconvert.com/sub?target=clash&url=https%3A%2F%2Feicuhq.xyz%2F%3FL1N1YnNjcmlwdGlvbi9DbGFzaD9zaWQ9NDU3MjkmdG9rZW49bERyTEh6MGlEWkImbW09NTU4MTUmNWY2NTEyYWIwOTU5NDE5Y2FhZmRiMTcxMjQ%3D&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
     interval: 604800
     path: ./amy.yaml
+    override:
+      additional-prefix: "amy-"
     health-check:
       enable: true
       interval: 600
@@ -42,6 +46,8 @@ proxy-providers:
     url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fdler.cloud%2Fsubscribe%2FHMwYAyJUr5nGKuLT%3Fclash%3Dss%26type%3Dlove&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false"
     interval: 604800
     path: ./dler.yaml
+    override:
+      additional-prefix: "dler-"
     health-check:
       enable: true
       interval: 600
@@ -51,6 +57,8 @@ proxy-providers:
     url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fdler.cloud%2Fsubscribe%2FHMwYAyJUr5nGKuLT%3Fclash%3Dss%26type%3Dgamer&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false"
     interval: 604800
     path: ./dler_gamer.yaml
+    override:
+      additional-prefix: "dler-gamer-"
     health-check:
       enable: true
       interval: 600
@@ -60,6 +68,8 @@ proxy-providers:
     url: "https://tagcdnsub.work/api/v1/client/subscribe?token=b6d9e81aadd9c6f575cc4a5c00da324b"
     interval: 604800
     path: ./TAG.yaml
+    override:
+      additional-prefix: "TAG-"
     health-check:
       enable: true
       interval: 600
@@ -69,6 +79,8 @@ proxy-providers:
     url: "https://api.huacloud.xyz/sub?target=clash&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D34857%26token%3D86LtGyArBXAA%26sip002%3D1&insert=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fflower.ini&filename=Flower_SS&emoji=true&list=false&xudp=false&udp=true&tfo=false&expand=true&scv=false&fdn=false&clash.doh=true&new_name=true"
     interval: 604800
     path: ./Flower_Cloud.yaml
+    override:
+      additional-prefix: "花云-"
     health-check:
       enable: true
       interval: 600
@@ -78,15 +90,19 @@ proxy-providers:
     url: "https://fast.lycorisrecoil.org/link/5pzsokByoPS1O7Ev?clash=1"
     interval: 604800
     path: ./Cnix_vip6.yaml
+    override:
+      additional-prefix: "CNIX-"
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
   自建:
     type: http
-    url: "[https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fnggezi%2Fzijian%2Fmain%2FREADME.md&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true](https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fgithub.com%2Fnggezi%2Fzijian%2Fraw%2Fmain%2FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true)"
+    url: "https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fnggezi%2Fzijian%2Fmain%2FREADME.md&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
     interval: 604800
     path: ./自建.yaml
+    override:
+      additional-prefix: "自建-"
     health-check:
       enable: true
       interval: 600
@@ -96,6 +112,8 @@ proxy-providers:
     url: "https://wow.dogss-host.store/api/v1/client/subscribe?token=e0d90ed8f90e23e2641893904dc37b1e"
     interval: 604800
     path: ./SSRDOG.yaml
+    override:
+      additional-prefix: "SSRDOG-"
     health-check:
       enable: true
       interval: 600
@@ -105,6 +123,8 @@ proxy-providers:
     url: "http://api.acaisbest.shop/api/v1/client/subscribe?token=0ed4ccb35adf1d2afe210676b12171c4"
     interval: 604800
     path: ./ACA.yaml
+    override:
+      additional-prefix: "ACA-"
     health-check:
       enable: true
       interval: 600
@@ -114,6 +134,8 @@ proxy-providers:
     url: "https://api.sub-200.club/link/48ZZETJJ0n9RY7We?clash=3&extend=1"
     interval: 604800
     path: ./ikuuu.yaml
+    override:
+      additional-prefix: "ikuuu-"
     health-check:
       enable: true
       interval: 600
@@ -124,6 +146,8 @@ proxy-providers:
     interval: 604800
     path: ./木瓜.yaml
     filter: CN
+    override:
+      additional-prefix: "木瓜-"
     health-check:
       enable: true
       interval: 600
@@ -207,6 +231,96 @@ proxy-groups:
     type: select
     use:
       - 木瓜
+  - name: 🇭🇰 香港节点
+    type: select
+    filter: "(?i)(港|🇭🇰|hk|hongkong|hong kong)"
+    use: 
+      - 奶昔
+      - amy
+      - dler
+      - dler_gamer
+      - 自建
+      - TAG
+      - Flower_Cloud
+      - Cnix_vip6
+      - SSRDOG
+      - ACA
+      - ikuuu
+  - name: 🇨🇳 台湾节点
+    type: select
+    filter: "(?i)(台|tw|taiwan)"
+    use: 
+      - 奶昔
+      - amy
+      - dler
+      - dler_gamer
+      - 自建
+      - TAG
+      - Flower_Cloud
+      - Cnix_vip6
+      - SSRDOG
+      - ACA
+      - ikuuu
+  - name: 🇸🇬 狮城节点
+    type: select
+    filter: "(?i)(新|🇸🇬|sg|singapore)"
+    use: 
+      - 奶昔
+      - amy
+      - dler
+      - dler_gamer
+      - 自建
+      - TAG
+      - Flower_Cloud
+      - Cnix_vip6
+      - SSRDOG
+      - ACA
+      - ikuuu
+  - name: 🇯🇵 日本节点 
+    type: select
+    filter: "(?i)(日本|🇯🇵|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|jp|japan)"
+    use: 
+      - 奶昔
+      - amy
+      - dler
+      - dler_gamer
+      - 自建
+      - TAG
+      - Flower_Cloud
+      - Cnix_vip6
+      - SSRDOG
+      - ACA
+      - ikuuu
+  - name: 🇰🇷 韩国节点
+    type: select
+    filter: "(?i)(KOR|韩国|首尔|韩|韓|KR|Korea)"
+    use: 
+      - 奶昔
+      - amy
+      - dler
+      - dler_gamer
+      - 自建
+      - TAG
+      - Flower_Cloud
+      - Cnix_vip6
+      - SSRDOG
+      - ACA
+      - ikuuu
+  - name: 🇺🇲 美国节点
+    type: select
+    filter: "(?i)(美|🇺🇸|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|us|unitedstates|united states)"
+    use: 
+      - 奶昔
+      - amy
+      - dler
+      - dler_gamer
+      - 自建
+      - TAG
+      - Flower_Cloud
+      - Cnix_vip6
+      - SSRDOG
+      - ACA
+      - ikuuu
   - name: 📲 电报消息
     type: select
     proxies:
@@ -215,7 +329,6 @@ proxy-groups:
       - amy
       - dler
       - dler_gamer
-      - 自建
       - TAG
       - Flower_Cloud
       - Cnix_vip6

@@ -335,6 +335,12 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
       - DIRECT
       - REJECT
   - name: 💬 OpenAi
@@ -351,6 +357,12 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
       - DIRECT
       - REJECT
   - name: 📹 油管视频
@@ -367,6 +379,12 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
       - DIRECT
       - REJECT
   - name: 🎥 奈飞视频
@@ -383,11 +401,18 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
       - DIRECT
       - REJECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
+      - 🇨🇳 台湾节点
       - 🚀 手动切换
       - 奶昔
       - amy
@@ -399,6 +424,11 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
       - DIRECT
       - REJECT
   - name: 📺 哔哩哔哩
@@ -416,6 +446,12 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
       - DIRECT
       - REJECT
   - name: 🌍 国外媒体
@@ -432,12 +468,18 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
       - DIRECT
       - REJECT
   - name: 🌏 国内媒体
     type: select
     proxies:
-      - DIRECT
+      - 🎯 全球直连
       - 🚀 手动切换
       - 奶昔
       - amy
@@ -449,11 +491,18 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
+      - DIRECT
       - REJECT
   - name: 📢 谷歌FCM
     type: select
     proxies:
-      - DIRECT
+      - 🎯 全球直连
       - 🚀 手动切换
       - 奶昔
       - amy
@@ -465,11 +514,18 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
+      - DIRECT
       - REJECT
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
-      - DIRECT
+      - 🎯 全球直连
       - 🚀 手动切换
       - 奶昔
       - amy
@@ -481,11 +537,18 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
+      - DIRECT
       - REJECT
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - DIRECT
+      - 🎯 全球直连
       - 🚀 手动切换
       - 奶昔
       - amy
@@ -497,11 +560,18 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
+      - DIRECT
       - REJECT
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - DIRECT
+      - 🎯 全球直连
       - 🚀 手动切换
       - 奶昔
       - amy
@@ -513,11 +583,18 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
+      - DIRECT
       - REJECT
   - name: 🎮 游戏平台
     type: select
     proxies:
-      - DIRECT
+      - 🎯 全球直连
       - 🚀 手动切换
       - 奶昔
       - amy
@@ -529,6 +606,13 @@ proxy-groups:
       - SSRDOG
       - ACA
       - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
+      - DIRECT
       - REJECT
   - name: 🎶 网易音乐
     type: select
